@@ -1,22 +1,40 @@
 html, body, h1, h2, h3, h4, ul, ol, li, p, a {
-    margin: 0;
+    margin: 0 8px 0 8px;
     padding: 0;
     border: 0;
-    
+    font-family: arial;
 }
 
 body {
     background-color: dimgray;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 h1 {
     text-align: center;
-    margin: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
     color: white;
     font-size: x-large;
-    font-family: "arial";
-    font-weight: 900;
+    font-family: tahoma;
+    font-weight: 400;
     
+}
+
+h2 {
+    color: #c0c0c0;
+}
+
+h3 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+ul li {
+    list-style-type: none;
+    margin-left: 18px;
 }
 
 p {
@@ -28,3 +46,41 @@ p {
 #header {
     background-color: black;
 }
+
+#content {
+    padding-bottom: 100px;
+}
+
+#wrapper {
+    min-height:100%;
+	position:relative;
+}
+
+#footer {
+    background: gray;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#footer h3 {
+    margin: 5px;
+}
+
+#footer p {
+    text-align: center;
+    padding: 2px;
+    display: inline;
+    font-size: 12px;
+    margin: 2px;
+    color: #ccc;
+    
+}
+
+#footer p:hover {
+    background-color: black;
+    color: white;
+}
+
