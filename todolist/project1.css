@@ -1,0 +1,76 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+html {
+    background: black url(Green-Check-Mark.jpg) top center repeat;
+    background-size: 100px auto;
+}
+
+h1 {
+    margin: 20px 0 10px 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #777777;
+    font-size: 64px;
+}
+input {
+    display: inline;
+    padding-left: 5px;
+    
+}
+#input {
+    text-align: center;
+}
+#inputBox {
+    display: inline;
+    color: #aaaaaa;
+    padding: 15px;
+    border-style:inset none none inset;
+    box-shadow: 2px 2px dimgray;
+    width: 311px;
+    
+}
+label {
+    font-size: 15px;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 3px;
+}
+ul li {
+    list-style-type: none;
+    width: 386px;
+    margin: 5px auto 0 auto;
+    color: #ffffff;
+    padding: 3px 0 3px 0;
+    background-color: #777777;
+    text-align: center;
+}
+
+#taskList li:hover {
+    background-color: #407740;
+}
+#submit {
+    display: inline;
+    height: 47px;
+    box-shadow: 2px 2px dimgray;
+}
+#filters {
+    text-align: center;
+    margin-top: 10px;
+}
+#filters li {
+    display: inline;
+    padding: 3px 5px;
+    color: #555;
+    visibility: hidden;
+    
+}
+#filters li input {
+    visibility: visible;
+}
