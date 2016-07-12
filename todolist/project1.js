@@ -3,6 +3,7 @@
     var li = document.createElement("li");
     document.getElementById("taskList").appendChild(li);
     document.getElementById("taskList").lastChild.innerHTML = "<input class=\"item\" type=\"checkbox\">" + text;
+    document.getElementById("inputBox").select();
   }
   
   function clearCompleted() {
@@ -14,6 +15,14 @@
         document.getElementById("taskList").removeChild(lis[i]);
         i--;
       }
+    }
+  }
+  
+  function clearAll() {
+    var listItems = document.getElementById("taskList").getElementsByTagName("li");
+    for (var i = 0; i < listItems.length; i++) {
+      document.getElementById("taskList").removeChild(listItems[i]);
+      i--;
     }
   }
   

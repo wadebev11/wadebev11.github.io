@@ -51,9 +51,8 @@ ul li {
     background-color: #777777;
     text-align: center;
 }
-
 #taskList li:hover {
-    background-color: #407740;
+    background-color: green;
 }
 #submit {
     display: inline;
@@ -63,10 +62,11 @@ ul li {
 #filters {
     text-align: center;
     margin-top: 10px;
+    
 }
 #filters li {
     display: inline;
-    padding: 3px 5px;
+    padding: 3px 3px;
     color: #555;
     visibility: hidden;
     
