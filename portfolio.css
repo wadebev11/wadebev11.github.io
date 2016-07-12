@@ -1,5 +1,5 @@
-html, body, h1, h2, h3, h4, ul, ol, li, p, a {
-    margin: 0 8px 0 8px;
+html, body, h1, h2, h3, h4, ul, ol, li, pre, p, a {
+    margin: 0;
     padding: 0;
     border: 0;
     font-family: arial;
@@ -7,7 +7,7 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
 
 body {
     background-color: dimgray;
-    margin: 0;
+    margin: 0 8px;
     padding: 0;
     height: 100%;
 }
@@ -23,14 +23,10 @@ h1 {
 }
 
 h2 {
+    font-weight: 500;
     color: #c0c0c0;
 }
 
-h3 {
-    color: #fff;
-    font-weight: normal;
-    font-size: 16px;
-}
 
 ul li {
     list-style-type: none;
@@ -48,7 +44,7 @@ p {
 }
 
 #content {
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 #wrapper {
@@ -58,29 +54,32 @@ p {
 
 #footer {
     background: gray;
-    height: 100px;
+    height: 60px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
+    text-align: center;
 }
 
 #footer h3 {
     margin: 5px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
 }
 
-#footer p {
-    text-align: center;
+#footer p, #footer pre {
     padding: 2px;
     display: inline;
     font-size: 12px;
-    margin: 2px;
-    color: #ccc;
+    color: dimgray;
     
 }
 
-#footer p:hover {
-    background-color: black;
-    color: white;
+#footer p:hover, #footer pre:hover {
+    background-color: white;
+    color: black;
 }
+
 
