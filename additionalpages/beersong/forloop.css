@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background: #cccccc url("beer-bottle-design.jpeg") repeat left top;
+}
+
+.full {
+    background-color: #cccccc;
+    width: 410px;
+    margin: 50px auto 10px auto;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 3px;
+}
+#song {
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 18px;
+}

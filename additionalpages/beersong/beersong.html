@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="forloop.js" type="text/javascript"></script>
+        <link href="forloop.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <p class ="full">How many beers do you want to take off the wall?<br></p>
+        <form onsubmit="takeEmDown();return false;">
+            <input id="beers" type="text" onfocus="this.select()" autofocus></input>
+            <input type="button" value="Take 'em down!" onClick="takeEmDown()"></input>
+        </form>
+        <p id="song" class="empty"></p>
+    </body>
+</html>
