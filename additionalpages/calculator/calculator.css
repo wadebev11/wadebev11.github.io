@@ -21,14 +21,16 @@ h1 {
 }
 
 .buttons input {
-    
     width: 70px;
     height: 70px;
     margin: 2px;
 }
 #functionality {
     width: 500px;
-    margin: 0 auto;
+    margin: 0 auto 15px;
+}
+#functionality input:last-child {
+    margin-right: 180px
 }
 #container {
     width: 500px;
