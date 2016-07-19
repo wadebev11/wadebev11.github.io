@@ -5,10 +5,15 @@ body {
 input {
     font-family: monospace;
 }
+h1 {
+    width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
 #display {
     background-color: #eee;
     width: 500px;
-    margin: 50px auto;
+    margin: 30px auto;
     padding: 5px;
     text-align: right;
     font-family: monospace;
@@ -21,7 +26,10 @@ input {
     height: 70px;
     margin: 2px;
 }
-
+#functionality {
+    width: 500px;
+    margin: 0 auto;
+}
 #container {
     width: 500px;
     margin: 0 auto;
@@ -40,7 +48,7 @@ input {
     right: 15%;
 }
 
-#oper-buttons .buttons {
+#oper-buttons input {
     width: 56px;
     height: 56px;
 }
