@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="calculator.css" rel="text/css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div id="display">
+            0
+        </div>
+        <div id="functionality" class="buttons">
+            <input type="button" id="clear" value="C" onclick="clearDisp()">
+            <input type="button" id="=" value="=" onclick="evaluateComm()">
+        </div>
+        <div id="container">
+            <div id="num-buttons" class="buttons">
+                <input type="button" id="1" value="1" onclick="addToCommand(1)">
+                <input type="button" id="2" value="2" onclick="addToCommand(2)">
+                <input type="button" id="3" value="3" onclick="addToCommand(3)">
+                <input type="button" id="4" value="4" onclick="addToCommand(4)">
+                <input type="button" id="5" value="5" onclick="addToCommand(5)">
+                <input type="button" id="6" value="6" onclick="addToCommand(6)">
+                <input type="button" id="7" value="7" onclick="addToCommand(7)">
+                <input type="button" id="8" value="8" onclick="addToCommand(8)">
+                <input type="button" id="9" value="9" onclick="addToCommand(9)">
+                <input type="button" id="0" value="0" onclick="addToCommand(0)">
+            </div>
+            <div id="oper-buttons" class="buttons">
+                <input type="button" id="+" value="+" onclick="addToCommand('+')">
+                <input type="button" id="-" value="-" onclick="addToCommand('-')">
+                <input type="button" id="*" value="*" onclick="addToCommand('*')">
+                <input type="button" id="/" value="/" onclick="addToCommand('/')">
+                <input type="button" id="%" value="%" onclick="addToCommand('%')">
+            </div>
+        </div>
+        <script type="text/javascript" src="calculator.js"></script>
+    </body>
+</html>
