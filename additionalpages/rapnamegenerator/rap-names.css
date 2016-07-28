@@ -1,0 +1,43 @@
+body {
+    background-color: black;    
+}
+
+input {
+    font-family: times;
+    font-size: 20px;
+    margin: 2px 0;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 12px;
+    border: 2px solid green;
+}
+
+#initial-buttons {
+    max-width: 410px;
+    margin: 0 auto;
+}
+
+h1, #list {
+    font-family: cursive;
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: justify;
+}
+
+h1 {
+    border: 1px solid blue;
+    background-color: gray;
+    padding: 0 20px;
+    border-radius: 40px 5px;
+    
+}
+
+li {
+    font-size: 20px;
+    background-color: #bbb;
+    padding: 4px 10px;
+    margin:  3px 4px;
+    border: 1px solid yellow;
+    display: inline-block;
+}
