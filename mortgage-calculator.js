@@ -25,7 +25,7 @@ function calculateSavings() {
     document.getElementById("new-payment").innerHTML = "New Payment: <b>$" + newPayment.toFixed(2) + "</b>";
     document.getElementById("monthly-savings").innerHTML = "Monthly Savings: <b>$" + monthlySavings.toFixed(2) + "</b>";
     document.getElementById("yearly-savings").innerHTML = "Yearly Savings: $" + yearlySavings.toFixed(2);
-    document.getElementById("5-year-savings").innerHTML = "5 Year Savings: $" + fiveYearSavings.toFixed(2);
-    document.getElementById("10-year-savings").innerHTML = "10 Year Savings: $" + tenYearSavings.toFixed(2);
+    document.getElementById("5-year-savings").innerHTML = "5 Year: $" + fiveYearSavings.toFixed(2);
+    document.getElementById("10-year-savings").innerHTML = "10 Year: $" + tenYearSavings.toFixed(2);
     
 }
