@@ -88,8 +88,7 @@ input:last-of-type {
 }
 
 .contact-info {
-    margin-top: 15px;
-    margin-right: 30px;
+    margin: 15px;
     float: left;
     text-align: left;
     vertical-align: top;
@@ -97,6 +96,7 @@ input:last-of-type {
 
 #equal-house {
     float: left;
+    margin: 15px;
     margin-left: 50px;
 }
 
@@ -116,7 +116,7 @@ input:last-of-type {
     background-color: #3C5A99;
     padding-right: 5px;
     padding-left: 5px;
-    margin-top: 15px;
+    margin: 15px;
     font-weight: bold;
     float: left;
 }
