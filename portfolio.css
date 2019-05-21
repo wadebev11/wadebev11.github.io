@@ -51,6 +51,12 @@ p {
     background-color: black;
 }
 
+#link {
+    font-size: 20px;
+    font-style: bold;
+    font-color: white;
+}
+
 #content {
     padding-bottom: 100px;
     margin: 0 20px;
